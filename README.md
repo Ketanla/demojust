@@ -1,28 +1,20 @@
 # Simple Interest (SI) Calculator
 
-A lightweight, responsive web application to calculate Simple Interest based on Principal Amount, Rate of Interest, and Time in Years. This project also serves as a foundational guide for setting up a modern CI/CD pipeline using Jenkins and Docker.
-
----
+A clean, minimalist, single-page web application that calculates Simple Interest based on user inputs for Principal Amount, Rate of Interest, and Time (in years). 
 
 ## 🚀 Features
+*   **Real-time Calculation:** Instantly computes Simple Interest using the formula $SI = \frac{P \times R \times N}{100}$.
+*   **Responsive UI:** Centered container layout using CSS Flexbox, making it fully functional on desktop and mobile devices.
+*   **Form Validation:** Built-in validation checks to handle empty or invalid inputs gracefully.
+*   **Modern Theme:** Features an updated interactive green accent color scheme with smooth hover transition effects.
 
-* **Real-time Calculation:** Instantly calculates Simple Interest using the formula $SI = \frac{P \times R \times N}{100}$.
-* **User-Friendly Interface:** Clean, centered card layout built with modern CSS.
-* **Input Validation:** Prevents calculation errors by validating numerical inputs.
-* **Responsive Design:** Optimized for both mobile devices and desktop viewports.
+## 🛠️ Technologies Used
+*   **HTML5:** Structure and semantic layouts.
+*   **CSS3:** Embedded responsive styling, custom themes, and UI elements.
+*   **JavaScript (ES6):** Client-side arithmetic calculations and DOM manipulation.
 
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML5, CSS3
-* **Logic:** Vanilla JavaScript (ES6)
-
----
-
-## 💻 Local Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Ketanla/demojust.git](https://github.com/Ketanla/demojust.git)
-   cd demojust
+## 📂 Project Structure
+```text
+devops_prac/
+├── index.html   # Main application file (contains HTML, CSS, and JS)
+└── README.md    # Documentation
